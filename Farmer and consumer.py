@@ -9,8 +9,8 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 fac=mysql.connector.connect(
     host="localhost",
-    user="Sai Anusha Halvi",
-    password="Anu@2000",
+    user="Username",
+    password="Password",
     database="project"
     )
 c=fac.cursor(buffered=True)
